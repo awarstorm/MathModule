@@ -8,7 +8,7 @@ class AddingModuleTest {
 
 	@Test
 	void testSum() {
-		fail("Not yet implemented");
+		assertEquals(AddingModule.sum(1, 2), 3);
 	}
 
 }
